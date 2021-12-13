@@ -17,7 +17,7 @@ commands:
           /imagemap help [command] - shows help
 permissions:
     imagemaps.*:
-        default: op
+        default: true
         children:
           imagemaps.place: true
           imagemaps.download: true
@@ -29,20 +29,20 @@ permissions:
           imagemaps.toggleFixed: true
           imagemaps.toggleVisible: true
     imagemaps.place:
-        default: op
+        default: true
     imagemaps.download:
-        default: op
+        default: true
     imagemaps.delete:
-        default: op
+        default: true
     imagemaps.info:
-        default: op
+        default: true
     imagemaps.list:
-        default: op
+        default: true
     imagemaps.reload:
-        default: op
+        default: true
     imagemaps.help:
-        default: op
+        default: true
     imagemaps.toggleFixed:
-        default: op
+        default: true
     imagemaps.toggleVisible:
-        default: op
+        default: true
